@@ -1,18 +1,24 @@
 .navbar-container {
-    width: 100vw;
-    display: flex;
-    flex-flow: row nowrap;
-    border: 1px solid black;
-}
-
-.navbar-list {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    align-items: center;
     padding: 2rem;
+    padding-inline: 4rem;
 }
 
-li {
-    list-style: none;
+.title-container {
+    display: flex;
+    flex: 1; 
+    justify-content: flex-start;
 }
+
+.navbar-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+

@@ -1,6 +1,6 @@
 .App {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
   text-align: center;
