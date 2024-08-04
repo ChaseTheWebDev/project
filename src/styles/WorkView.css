@@ -27,9 +27,16 @@ header p {
 }
 
 .recent-work-header {
+    width: 45%;
     display: flex;
     flex-flow: column nowrap;
-    padding: 10rem;
+    padding: 4rem;
+    gap: 1rem;
+
+}
+
+.recent-work-header h2 {
+    font-size: 2.5rem;
 }
 
 .project-list-container {
@@ -73,7 +80,8 @@ header p {
     flex-flow: column nowrap;
     padding: 5rem;
     padding-block: 10rem;
-    background-color:black;
+    gap: 1rem;
+    background-color: #2C2C2C;
     color: white;
 }
 
@@ -88,14 +96,17 @@ header p {
 }
 
 button {
+    width:fit-content;
     display:inline-flex;
+    box-sizing: border-box;
     background-color: white;
     font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
     align-items: center;
     color: black;
-    padding: 2rem;
+    padding-block: 1.5rem;
+    padding-inline: 2.5rem;
     border: 1px solid black;
     cursor: pointer;
 }

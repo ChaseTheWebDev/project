@@ -1,0 +1,22 @@
+.about-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-inline: 5rem;
+}
+
+.dual-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.box {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    flex-flow:row wrap;
+    flex: 1;
+    padding-inline: 4rem;
+    border: 1px solid black;
+
+}
