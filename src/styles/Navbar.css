@@ -12,13 +12,19 @@
     display: flex;
     flex: 1; 
     justify-content: flex-start;
+    font-size: 2rem;
 }
 
 .navbar-list {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    gap: 4rem;
+    font-weight: 300;
+    gap: 5rem;
+}
+
+.navbar-list .active {
+    border-bottom: 1px solid black;
 }
 
 

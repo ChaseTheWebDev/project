@@ -4,9 +4,24 @@ body {
     overflow-x: hidden;
   }
 
-  a {
-    text-decoration: none;
-  }
+a {
+    color: inherit;           /* Inherit color from parent element */
+    text-decoration: none;    /* Remove underline */
+}
+
+a:visited {
+    color: inherit;           /* Inherit color from parent element */
+}
+
+a:active {
+    color: inherit;           /* Inherit color from parent element */
+}
+
+a:hover {
+    color: inherit;           /* Inherit color from parent element */
+}
+
+  
 
   h1,
   h2,
