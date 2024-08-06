@@ -1,0 +1,17 @@
+.press-container {
+    padding-block: 8rem;
+    padding-inline: 4rem;
+}
+
+.press-dual-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.press-box-1 {
+    width: 50%;
+}
+
+.press-box-2 {
+    width: 50%;
+}

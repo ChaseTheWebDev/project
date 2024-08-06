@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    padding-inline: 5rem;
+    padding-inline: 14rem;
     font-size: 3.6rem;
     font-weight: 500;
 }
@@ -13,7 +13,7 @@ header p {
 
 .workview-image-1 {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-image: url('../assets/workview-image-1.png');
     background-size: cover;
     background-position: center;
@@ -21,16 +21,20 @@ header p {
 }
 
 .recent-work-container {
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
-    padding: 2rem;
+    padding-inline: 5rem;
+    padding-block: 5rem;
 }
 
 .recent-work-header {
-    width: 45%;
+    width: 60%;
     display: flex;
     flex-flow: column nowrap;
-    padding: 4rem;
+    padding-inline: 10rem;
+    padding-top: 1rem;
+    padding-bottom:5rem;
     gap: 1rem;
 
 }
@@ -41,38 +45,33 @@ header p {
 
 .project-list-container {
     display: flex;
-    flex-flow: row wrap;
-    gap: 1rem;
-}
-
-
-.project-list-container {
-    display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    gap: 2rem;
+
 }
 
 .project-link {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    width: calc(50% - 0.5rem);
+    width: calc(50% - 1rem);
     box-sizing: border-box; 
 }
 
 .project-image {
     width: 100%; 
-    height: 500px; 
+    height: 650px; 
     object-fit: cover; 
     display: block;
     border: none;
 }
 
 .project-link h5 {
-    margin-block: 0.5rem 0;
-    font-size: 1rem;
-    text-align:left;
+    display: flex;
+    margin-block: 2rem 0;
+    font-size: 1.5rem;
+    text-align: left;
+
 }
 
 .lets-work-container {

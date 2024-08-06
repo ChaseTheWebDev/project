@@ -1,22 +1,86 @@
+* 
+
 .about-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* .about-container * {
+    outline: 1px solid blue;
+} */
+
+.about-header {
+    width: 100%;
+}
+
+.about-dual-container {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap:15rem;
+    padding-bottom: 5rem;
+}
+
+
+.box-1 {
+    width: 20%;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+    padding-block: 4rem;
+    padding-inline: 8rem;
+}
+
+.box-2 {
+    box-sizing: border-box;
+    width: 80%;
+    line-height: 1.5;
+    padding-block: 3rem;
+    padding-inline: 10rem;
+}
+
+.about-lets-work-container {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-start;
-    padding-inline: 5rem;
+    padding: 5rem;
+    padding-block: 10rem;
+    gap: 1rem;
+    background-color: #2C2C2C;
+    background-image: url('https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.9a3ef7a66ff173d82888c0103a031698.js');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    color: white;
 }
 
-.dual-container{
-    display: flex;
-    flex-flow: row nowrap;
+.about-lets-work-container h2 {
+    font-size: 3rem;
+    width: 50%
 }
 
-.box {
-    width: 50vw;
-    height: 50vw;
-    display: flex;
-    flex-flow:row wrap;
-    flex: 1;
-    padding-inline: 4rem;
+.about-lets-work-container p {
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.about-button {
+    width:fit-content;
+    display:inline-flex;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding-block: 1.5rem;
+    padding-inline: 2.5rem;
     border: 1px solid black;
-
+    cursor: pointer;
 }

@@ -1,26 +1,25 @@
 .navbar-container {
-    box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 2rem;
-    padding-inline: 4rem;
+    padding: 2.5rem;
+    padding-inline: 5rem;
+
 }
 
 .title-container {
     display: flex;
     flex: 1; 
     justify-content: flex-start;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .navbar-list {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     font-weight: 300;
-    gap: 5rem;
+    gap: 1.5rem;
 }
 
 .navbar-list .active {

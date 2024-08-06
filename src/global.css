@@ -1,41 +1,62 @@
-body {
-    font-family: 'Noto Sans', sans-serif;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
+:root {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 1.75;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 0;
+}
 
 a {
-    color: inherit;           /* Inherit color from parent element */
-    text-decoration: none;    /* Remove underline */
+  text-decoration: none;
+  color: inherit;
 }
 
-a:visited {
-    color: inherit;           /* Inherit color from parent element */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-a:active {
-    color: inherit;           /* Inherit color from parent element */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
 }
 
-a:hover {
-    color: inherit;           /* Inherit color from parent element */
+
+
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
 }
 
-  
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0px;
-    font-weight: 400;
-    font-size: inherit;
-  }
-
-  li {
-    list-style: none;
-    margin: 0; 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1rem;
 }
-  
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, mark, nav, section, summary {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
