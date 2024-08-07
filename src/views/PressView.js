@@ -1,4 +1,6 @@
 import React from 'react';
+import ContactSection from '../components/ContactSection';
+import Button from '../components/Button';
 import '../styles/PressView.css';
 
 export default function PressView() {
@@ -35,10 +37,10 @@ export default function PressView() {
                     <small>-Press Source</small>
                 </div>
             </div>
-            <div className='lets-work-container'>
+            <ContactSection>
                 <h2>Let's Work Together</h2>
-                <button className='press-button'>Contact Us</button>
-            </div>
+                <Button>Contact Us</Button>
+            </ContactSection>
         </div>
     );
 }

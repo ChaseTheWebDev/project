@@ -1,4 +1,7 @@
 import '../styles/WorkView.css';
+import ContactSection from '../components/ContactSection';
+import Button from '../components/Button';
+
 import ProjectImage1 from '../assets/project-1.jpg';
 import ProjectImage2 from '../assets/project-2.jpg';
 import ProjectImage3 from '../assets/project-3.jpg';
@@ -47,7 +50,7 @@ export default function WorkView() {
                         </a>
                     </div>
                 </div>
-                <div className='lets-work-container'>
+                <ContactSection variant={'dark'}>
                     <h2>Let's Work Together</h2>
                     <p>We’re always looking for new 
                         opportunities and are comfortable
@@ -57,8 +60,8 @@ export default function WorkView() {
                         contact you about beginning
                         the proposal process.
                     </p>
-                    <button className='workview-button'>Contact Us</button>
-                </div>
+                    <Button variant='light'>Contact Us</Button>
+                </ContactSection>
             </main>
         </div>
     );

@@ -1,5 +1,9 @@
 import React from 'react';
+import ContactSection from '../components/ContactSection';
+import Button from '../components/Button';
 import '../styles/AboutView.css';
+
+const projectFour = '../assets/project-4.jpg';
 
 export default function AboutView() {
     return (
@@ -40,10 +44,10 @@ export default function AboutView() {
                     </div>
                 </div>
             </div>
-            <div className='about-lets-work-container'>
-                <h2>Let's Work Together</h2>
-                <button className='about-button'>Contact Us</button>
-            </div>
+            <ContactSection variant={'dark'} backgroundImage={projectFour}>
+                    <h2>Let's Work Together</h2>
+                    <Button variant='light'>Contact Us</Button>
+                </ContactSection>
             <main></main>
         </div>
     );
