@@ -32,19 +32,19 @@ export default function WorkView() {
                         </p>
                     </div>
                     <div className='project-list-container'>
-                        <a href="/project-1" className="project-link">
+                        <a href="/project/one" className="project-link">
                             <img src={ProjectImage1} alt="Project 1" className="project-image"/>
                             <h5>Project 1</h5>
                         </a>
-                        <a href="/project-2" className="project-link">
+                        <a href="/project/two" className="project-link">
                             <img src={ProjectImage2} alt="Project 2" className="project-image"/>
                             <h5>Project 2</h5>
                         </a>
-                        <a href="/project-3" className="project-link">
+                        <a href="/project/three" className="project-link">
                             <img src={ProjectImage3} alt="Project 3" className="project-image"/>
                             <h5>Project 3</h5>
                         </a>
-                        <a href="/project-4" className="project-link">
+                        <a href="/project/four" className="project-link">
                             <img src={ProjectImage4} alt="Project 4" className="project-image"/>
                             <h5>Project 4</h5>
                         </a>
