@@ -94,7 +94,7 @@ header p {
     width: 50%;
 }
 
-button {
+.workview-button {
     width:fit-content;
     display:inline-flex;
     box-sizing: border-box;

@@ -57,7 +57,7 @@ export default function WorkView() {
                         contact you about beginning
                         the proposal process.
                     </p>
-                    <button>Contact Us</button>
+                    <button className='workview-button'>Contact Us</button>
                 </div>
             </main>
         </div>

@@ -1,17 +1,29 @@
 .press-container {
-    padding-block: 8rem;
-    padding-inline: 4rem;
+padding-block: 5rem;
 }
 
 .press-dual-container {
+    padding-inline: 10rem;
     display: flex;
-    flex-flow: row wrap;
+    gap: 2rem;
 }
 
 .press-box-1 {
+    padding: 3rem;
     width: 50%;
 }
 
 .press-box-2 {
+    font-size: 1.5rem;
     width: 50%;
+    padding: 3rem;
+    padding-left: 0rem;
+}
+
+.press-box-1 h1 {
+    font-size: 2.5rem;
+}
+
+blockquote {
+    padding: 2.5rem;
 }

@@ -45,6 +45,14 @@ input, textarea, select, button {
   font-size: inherit;
 }
 
+
+input, textarea {
+  border: 1px solid #ddd; 
+  padding: 15px;
+  outline: none;
+}
+
+
 button {
   background: none;
   border: none;
@@ -59,4 +67,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, mark,
 
 body {
   overflow-x: hidden;
+}
+
+blockquote {
+  margin: 0;
 }
