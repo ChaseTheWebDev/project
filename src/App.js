@@ -8,6 +8,7 @@ import PressView from './views/PressView';
 import ContactView from './views/ContactView';
 import Footer from './components/Footer';
 import './App.css';
+import ProjectView from './views/ProjectView';
 
 export default function AppRouter() {
   return (
@@ -20,6 +21,7 @@ export default function AppRouter() {
         <Route path="/our-team" element={<OurTeamView />} />
         <Route path="/press" element={<PressView />} />
         <Route path="/contact" element={<ContactView />} />
+        <Route path="/project/:id" element={<ProjectView />} />
       </Routes>
       <Footer />
       </div>
