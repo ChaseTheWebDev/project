@@ -1,14 +1,6 @@
 header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    padding-inline: 14rem;
     font-size: 3.6rem;
     font-weight: 500;
-}
-
-header p {
-    width: 80%;
 }
 
 .workview-image-1 {

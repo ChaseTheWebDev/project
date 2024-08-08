@@ -1,13 +1,24 @@
-.contact-section-container,
-.contact-section-dark {
+.contact-section-container {
     display: flex;
     flex-flow: column nowrap;
     padding: 14rem;
     padding-block: 11rem;
     gap: 1rem;
+    color: #fff;
     background-size: cover;
     background-position: center;
-    color: black;
+}
+
+.contact-section-container.dark {
+    background: #28282a;
+}
+
+.contact-section-container.three {
+    background-image: url('../assets/project-3.jpg');
+}
+
+.contact-section-container.four {
+    background-image: url('../assets/project-4.jpg');
 }
 
 .contact-section-container {

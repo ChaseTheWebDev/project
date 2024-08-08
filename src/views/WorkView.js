@@ -10,7 +10,7 @@ import ProjectImage4 from '../assets/project-4.jpg';
 export default function WorkView() {
     return (
         <div className="workview-container">
-            <header>
+            <header className="container-1400">
                 <p>
                     Utica is an architecture firm based in Copenhagen, Denmark.
                 </p>
@@ -50,7 +50,7 @@ export default function WorkView() {
                         </a>
                     </div>
                 </div>
-                <ContactSection variant={'dark'}>
+                <ContactSection>
                     <h2>Let's Work Together</h2>
                     <p>We’re always looking for new 
                         opportunities and are comfortable
