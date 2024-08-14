@@ -3,13 +3,10 @@ import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
 import '../styles/AboutView.css';
 
-console.log(process.env)
-
 export default function AboutView() {
     return (
-        <div className='about-container'>
-            <div className='about-header'>
-                <div className='about-dual-container'>
+        <div className='about'>
+            <div className='dual-container-1400'>
                     <div className='box-1'>
                         <h1>About</h1>
                     </div>
@@ -39,16 +36,19 @@ export default function AboutView() {
                             continues to perform.
                         </p>
                         <p>
-                            We are proud of our Danish home and heritage, but do not consider ourselves exponents of Danish design. National style has no place in architecture, where a building must first and foremost be suited to local needs.
+                            We are proud of our Danish home and heritage, but do not
+                            consider ourselves exponents of Danish design. National
+                            style has no place in architecture, where a building must
+                            first and foremost be suited to local needs.
                         </p>
                     </div>
-                </div>
+              
             </div>
-            <ContactSection background="three">
-                <h2>Let's Work Together</h2>
-                <Button variant='light'>Contact Us</Button>
-            </ContactSection>
-            <main></main>
+                <ContactSection background="three">
+                    <h2>Let's Work Together</h2>
+                    <Button variant='light'>Contact Us</Button>
+                </ContactSection>
+           
         </div>
     );
 }

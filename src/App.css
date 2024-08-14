@@ -10,3 +10,11 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.dual-container-1400 {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-block: 5rem;
+}

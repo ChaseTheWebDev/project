@@ -3,6 +3,7 @@ import '../styles/Footer.css';
 export default function Footer() {
     return (
         <footer>
+            <div className='container-1400'>
         <h3>Utica</h3>
         <div className='dual-container'>
             <address>
@@ -15,6 +16,7 @@ export default function Footer() {
             </address>
         </div>
         <p>Made by Chase Leoncini</p>
+        </div>
     </footer>
     );
 }

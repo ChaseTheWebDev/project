@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/ContactView.css';
 
-const h5Text = 'Name (required)';
 
 export default function ContactView() {
     return (
-        <div className='contact-view-container'>
-            <div className='contact-dual-container'>
+        <div className='contact'>
+            <div className='dual-container-1400'>
                 <div className='contact-box-1'>
                     <h2>Let's Work Together</h2>
                     <p>
@@ -20,14 +19,14 @@ export default function ContactView() {
                     </div>
                   
                     <address>
-                        <p>123 Demo Street, San Diego, CA</p>
+                        <p>1050 Chase Street, San Diego, CA</p>
                         <p>(619) 709-5555</p>
-                        <p>email@example.com</p>
+                        <p>chase@gmail.com</p>
                     </address>
                 </div>
                 <div className='contact-box-2'>
                     <form className='contact-form'>
-                        <h5>{h5Text}</h5>
+                        <h5>Name (required)</h5>
                         <div className='full-name-container'>
                             <label>First Name (required)
                                 <input type='text' required />

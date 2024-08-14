@@ -5,8 +5,8 @@ import '../styles/PressView.css';
 
 export default function PressView() {
     return (
-        <div className='press-container'>
-            <div className='press-dual-container'>
+        <div className='press'>
+            <div className='dual-container-1400'>
                 <div className='press-box-1'>
                     <h1>Press</h1>
                 </div>
@@ -15,18 +15,18 @@ export default function PressView() {
                         “Their buildings often establish expectations and then
                         flip them, creating a sense of weightlessness and wonder.”
                     </blockquote>
-                    <small>
+                    <cite>
                         – Press Source
-                    </small>
+                    </cite>
                     <blockquote>
                     “Utica have established themselves at the forefront of a new
                      class of architecture studios that practice ‘placemaking,’ a
                       sort of total design philosophy that encompasses buildings,
                        landscapes, ecology and social interaction.”
                     </blockquote>
-                    <small>
+                    <cite>
                         - Press Source
-                    </small>
+                    </cite>
                     <blockquote>
                         “Surprisingly, three of my favorite projects from last
                         year came from the same small studio: Utica. With a 
@@ -37,9 +37,9 @@ export default function PressView() {
                     <small>-Press Source</small>
                 </div>
             </div>
-            <ContactSection>
-                <h2>Let's Work Together</h2>
-                <Button>Contact Us</Button>
+            <ContactSection background='other'>
+            <h2 style={{ color: 'black' }}>Let's Work Together</h2>
+            <Button variant='dark'>Contact Us</Button>
             </ContactSection>
         </div>
     );

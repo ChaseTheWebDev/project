@@ -1,23 +1,18 @@
-.press-container {
-padding-block: 5rem;
-}
-
-.press-dual-container {
-    padding-inline: 10rem;
+.press{
+    width: 100vw;
+    width: 100dvw;
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
 }
 
 .press-box-1 {
     padding: 3rem;
-    width: 50%;
+    width: 40%;
 }
 
 .press-box-2 {
     font-size: 1.5rem;
-    width: 50%;
-    padding: 3rem;
-    padding-left: 0rem;
+    width: 60%;
 }
 
 .press-box-1 h1 {
@@ -26,8 +21,4 @@ padding-block: 5rem;
 
 blockquote {
     padding: 2.5rem;
-}
-
-.press-lets-work-container {
-    background-image: url('https://images.squarespace-cdn.com/content/v1/5ce435d6bea1ed00016ba287/1558966799885-ML5545PRM09UWRMD4ON8/MatthiasHeiderich-084-copy.jpg');
 }

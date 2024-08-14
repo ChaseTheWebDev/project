@@ -1,5 +1,6 @@
 import '../styles/WorkView.css';
 import ContactSection from '../components/ContactSection';
+import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 
 import ProjectImage1 from '../assets/project-1.jpg';
@@ -17,7 +18,7 @@ export default function WorkView() {
             </header>
             <main>
                 <div className='workview-image-1'></div>
-                <div className='recent-work-container'>
+                <div className='container-1400'>
                     <div className='recent-work-header'>
                         <h2>Recent Work</h2>
                         <p>
@@ -31,6 +32,7 @@ export default function WorkView() {
                             through architecture.
                         </p>
                     </div>
+                </div>
                     <div className='project-list-container'>
                         <a href="/project/one" className="project-link">
                             <img src={ProjectImage1} alt="Project 1" className="project-image"/>
@@ -49,7 +51,8 @@ export default function WorkView() {
                             <h5>Project 4</h5>
                         </a>
                     </div>
-                </div>
+
+                
                 <ContactSection>
                     <h2>Let's Work Together</h2>
                     <p>We’re always looking for new 
@@ -60,7 +63,7 @@ export default function WorkView() {
                         contact you about beginning
                         the proposal process.
                     </p>
-                    <Button variant='light'>Contact Us</Button>
+                    <Link to ='/contact'><Button variant='light'>Contact Us</Button></Link>
                 </ContactSection>
             </main>
         </div>

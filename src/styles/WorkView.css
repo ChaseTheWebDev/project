@@ -12,21 +12,15 @@ header {
     background-repeat: no-repeat;
 }
 
-.recent-work-container {
-    width: 100vw;
-    display: flex;
-    flex-flow: column nowrap;
-    padding-inline: 5rem;
-    padding-block: 5rem;
-}
+
+
 
 .recent-work-header {
     width: 60%;
     display: flex;
     flex-flow: column nowrap;
-    padding-inline: 10rem;
     padding-top: 1rem;
-    padding-bottom:5rem;
+    padding-bottom:5rem; 
     gap: 1rem;
 
 }
@@ -36,9 +30,11 @@ header {
 }
 
 .project-list-container {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    column-gap: 2rem;
+    padding-inline: 5rem;
 
 }
 
@@ -47,7 +43,6 @@ header {
     flex-direction: column; 
     align-items: center;
     width: calc(50% - 1rem);
-    box-sizing: border-box; 
 }
 
 .project-image {
@@ -65,8 +60,6 @@ header {
 
 .project-link h5 {
     display: flex;
-    margin-block: 2rem 0;
+    margin-block: 2rem;
     font-size: 1.5rem;
-    text-align: left;
-
 }

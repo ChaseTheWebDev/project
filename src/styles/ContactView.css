@@ -1,15 +1,12 @@
-.contact-view-container {
-    padding: 5rem;
+.contact {
+    width: 100vw;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-dual-container {
-    padding-inline: 5rem;
-    display: flex;
-    gap: 2rem;
-}
 
 .contact-box-1 {
-    padding: 3rem;
     width: 50%;
 }
 
@@ -24,7 +21,6 @@
 
 .contact-box-2 {
     width: 50%;
-    padding: 3rem;
 }
 
 .contact-form {
@@ -36,7 +32,7 @@
 .full-name-container {
     display: flex;
     flex-flow: row nowrap;
-    gap: 2rem;
+    gap: .75rem;
 }
 
 .full-name-container label {

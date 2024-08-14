@@ -1,7 +1,6 @@
 .contact-section-container {
     display: flex;
     flex-flow: column nowrap;
-    padding: 14rem;
     padding-block: 11rem;
     gap: 1rem;
     color: #fff;
@@ -21,6 +20,10 @@
     background-image: url('../assets/project-4.jpg');
 }
 
+.contact-section-container.other {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5ce435d6bea1ed00016ba287/1558966799885-ML5545PRM09UWRMD4ON8/MatthiasHeiderich-084-copy.jpg');
+}
+
 .contact-section-container {
     background-color: white;
 }
@@ -31,8 +34,8 @@
 }
 
 .contact-section-with-background {
-    background-color: transparent; /* Override color if background image is applied */
-    border-color: transparent; /* Optionally remove border */
+    background-color: transparent;
+    border-color: transparent;
 }
 
 /* h2 styles */
@@ -55,7 +58,6 @@
 @media (max-width: 768px) {
     .contact-section-container,
     .contact-section-dark {
-        padding: 8rem;
         padding-block: 6rem;
     }
 

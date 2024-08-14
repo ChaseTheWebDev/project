@@ -1,13 +1,12 @@
 footer {
-    display: flex;
+    width: 100vw;
     flex-flow: column nowrap;
-    padding: 5rem;
-    padding-inline-start: 14rem;
+    padding-block: 3rem;
 }
 
 footer h3 {
     font-size: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .dual-container {

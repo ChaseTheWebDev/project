@@ -47,9 +47,10 @@ input, textarea, select {
 
 
 input, textarea {
-  border: 1px solid #ddd; 
+  border: 1px solid black; 
   padding: 15px;
   outline: none;
+  resize: vertical;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, mark, nav, section, summary {
