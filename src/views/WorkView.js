@@ -1,8 +1,7 @@
 import '../styles/WorkView.css';
 import ContactSection from '../components/ContactSection';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Button from '../components/Button';
-
 import ProjectImage1 from '../assets/project-1.jpg';
 import ProjectImage2 from '../assets/project-2.jpg';
 import ProjectImage3 from '../assets/project-3.jpg';

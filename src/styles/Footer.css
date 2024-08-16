@@ -15,3 +15,29 @@ footer h3 {
     flex-flow: row;
     column-gap: 5rem;
 }
+
+
+/* --------- MEDIA CHANGES --------- */
+
+@media(max-width: 600px) {
+    footer {
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 2rem;
+    }
+    
+    footer h3 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .dual-container {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        column-gap: 5rem;
+    }
+}

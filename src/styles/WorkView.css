@@ -1,6 +1,9 @@
 header {
+    display: flex;
+    flex-flow: row wrap;
     font-size: 3.6rem;
     font-weight: 500;
+    padding-inline: 2rem;
 }
 
 .workview-image-1 {
@@ -39,11 +42,11 @@ header {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    width: calc(50% - 1rem);
+    width: 100vw;
 }
 
 .project-image {
-    width: 100%; 
+    width: 100vw; 
     height: 650px; 
     object-fit: cover; 
     display: block;
@@ -57,38 +60,38 @@ header {
 
 .project-link h5 {
     display: flex;
-    margin-block: 2rem;
+    margin-block: 0rem;
     font-size: 1.5rem;
 }
 
 
-/* MEDIA CHANGES */
+/* --------- MEDIA CHANGES --------- */
 
 
 @media(max-width: 500px) {
 
     header {
-        font-size: 2.2rem;
+        padding-inline: 2rem;
+        font-size: 12vw;
         font-weight: 500;
     }
     
     .workview-image-1 {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         background-image: url('../assets/workview-image-1.png');
-        background-size: cover;
+        background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     
     .recent-work {
-        background-color: purple;
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-flow: column nowrap;
-        padding: 2rem;
-        padding-bottom:3rem; 
-        gap: 1rem;
+        padding-inline: 2rem;
+        padding-bottom:2rem; 
+        gap: 0rem;
     
     }
     
@@ -101,7 +104,7 @@ header {
         display: flex;
       flex-flow: column nowrap;
         gap: 0rem;
-        padding-inline: 2rem;
+        padding-inline: 0rem;
     
     }
     
@@ -109,12 +112,13 @@ header {
         display: flex;
         flex-flow: column nowrap ;
         align-items: center;
-        width: calc(50% - 1rem);
+        width: 100vw;
+        padding-inline: 2rem;
     }
     
     .project-image {
         width: 100vw; 
-        height: 300px;
+        height: 300px; 
         object-fit: cover; 
         display: flex;
         border: none;
@@ -130,6 +134,4 @@ header {
         margin-block: 1rem;
         font-size: 1.25rem;
     }
-
-    
 }

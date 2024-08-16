@@ -25,4 +25,49 @@
     border-bottom: 1px solid black;
 }
 
+.menu-icon {
+    display: none;
+}
+
+/* --------- MEDIA CHANGES --------- */
+
+@media(max-width: 600px) {
+
+    .navbar {
+        width: 100%;
+        padding: 1.5em 1em;
+    }
+    .navbar-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    
+    .title-container {
+        font-size: 4vw;
+    }
+    
+    .navbar-list {
+        display: none;
+        flex-flow: row nowrap;
+        font-weight: 300;
+        gap: 1.5rem;
+    }
+    
+    .navbar-list .active {
+        border-bottom: 1px solid black;
+    }
+
+    .menu-icon {
+        display: inline;
+        padding:1rem;
+        font-size: 40px;
+    }
+
+    
+    
+    
+}
 
