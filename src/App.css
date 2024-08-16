@@ -13,7 +13,7 @@
 
 .dual-container-1400 {
   max-width: 1400px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-flow: row nowrap;
   padding-block: 5rem;

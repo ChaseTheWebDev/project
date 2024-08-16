@@ -1,0 +1,15 @@
+.project-navbar {
+    width: 100vw;
+    width: 100dvw;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-block: 3rem;
+    font-size: 2rem;
+}
+
+.spreader {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+

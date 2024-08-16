@@ -19,7 +19,7 @@ export default function WorkView() {
             <main>
                 <div className='workview-image-1'></div>
                 <div className='container-1400'>
-                    <div className='recent-work-header'>
+                    <div className='recent-work'>
                         <h2>Recent Work</h2>
                         <p>
                             Our practice spans from environmental 
@@ -63,7 +63,7 @@ export default function WorkView() {
                         contact you about beginning
                         the proposal process.
                     </p>
-                    <Link to ='/contact'><Button variant='light'>Contact Us</Button></Link>
+                   <Button variant='light'>Contact Us</Button>
                 </ContactSection>
             </main>
         </div>

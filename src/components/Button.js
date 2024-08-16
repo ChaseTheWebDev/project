@@ -10,6 +10,6 @@ export default function Button({ children, variant = 'light', backgroundImage, .
             <button className={`${buttonClass} ${imageClass}`} style={{ backgroundImage: `url(${backgroundImage})` }} {...rest}>
                 {children}
             </button>
-        </Link>
+        </Link> //Has an a tag in it.
     );
 }

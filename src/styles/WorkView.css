@@ -12,10 +12,7 @@ header {
     background-repeat: no-repeat;
 }
 
-
-
-
-.recent-work-header {
+.recent-work {
     width: 60%;
     display: flex;
     flex-flow: column nowrap;
@@ -62,4 +59,77 @@ header {
     display: flex;
     margin-block: 2rem;
     font-size: 1.5rem;
+}
+
+
+/* MEDIA CHANGES */
+
+
+@media(max-width: 500px) {
+
+    header {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    
+    .workview-image-1 {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../assets/workview-image-1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .recent-work {
+        background-color: purple;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 2rem;
+        padding-bottom:3rem; 
+        gap: 1rem;
+    
+    }
+    
+    .recent-work-header h2 {
+        font-size: 2.5rem;
+    }
+    
+    .project-list-container {
+        width: 100vw;
+        display: flex;
+      flex-flow: column nowrap;
+        gap: 0rem;
+        padding-inline: 2rem;
+    
+    }
+    
+    .project-link {
+        display: flex;
+        flex-flow: column nowrap ;
+        align-items: center;
+        width: calc(50% - 1rem);
+    }
+    
+    .project-image {
+        width: 100vw; 
+        height: 300px;
+        object-fit: cover; 
+        display: flex;
+        border: none;
+    }
+    
+    .project-link:hover .project-image {
+        opacity: 70%;
+    }
+    
+    
+    .project-link h5 {
+        display: flex;
+        margin-block: 1rem;
+        font-size: 1.25rem;
+    }
+
+    
 }

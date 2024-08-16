@@ -1,23 +1,27 @@
-.project-view-container {
-    padding-block: 5rem;
+.project {
+    width: 100vw;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
     }
     
-    .project-dual-container {
-        padding-inline: 10rem;
+    .project-box-1 {
+        width: 40%;
         display: flex;
-        gap: 2rem;
-    }
-    
-    .press-box-1 {
-        padding: 3rem;
-        width: 50%;
+        flex: 1;
+        font-size: 1.3rem;
+        font-weight: 800;
+        line-height: 1.75;
+        letter-spacing: 1.5px;
+        padding-block: 4rem;
     }
     
     .project-box-2 {
-        font-size: 1.5rem;
-        width: 50%;
-        padding: 3rem;
-        padding-left: 0rem;
+        display: flex;
+        flex: 1;
+        width: 60%;
+        line-height: 1.5;
+        padding-block: 3rem;
     }
     
     .project-box-1 h1 {
@@ -28,6 +32,36 @@
         padding: 2.5rem;
     }
     
-    .project-image{
-        background-image: url('https://images.squarespace-cdn.com/content/v1/5ce435d6bea1ed00016ba287/1558966799885-ML5545PRM09UWRMD4ON8/MatthiasHeiderich-084-copy.jpg');
+    .project-view-image {
+        width: 100vw; 
+        height: 100vh; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-color: #f0f0f0; 
+    }
+    
+    .project-image.one {
+        background-image: url('../assets/project-1.jpg');
+    }
+    
+    .project-image.two {
+        background-image: url('../assets/project-2.jpg');
+    }
+    
+    .project-image.three {
+        background-image: url('../assets/project-3.jpg');
+    }
+    
+    .project-image.four {
+        background-image: url('../assets/project-4.jpg');
+    }
+    
+
+    .previous,
+    .next  {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 1rem;
     }
