@@ -58,7 +58,7 @@ export default function ProjectView() {
     const renderedNextString = convertNumberToString(nextNumber);
     const renderedPreviousString = convertNumberToString(previousNumber);
     const currentDescription = projectDescriptions[id] || <p>Project not found</p>;
-    
+
     const imageClass = `project-view-image ${id}`;
 
     return (
@@ -72,12 +72,12 @@ export default function ProjectView() {
                 </div>
             </div>
             <div className={imageClass}>
-                {/* Background image*/}
+                {/* Background image */}
             </div>
-            <ProjectsNavbar 
-                previous={`Project ${renderedPreviousString || ''}`} 
-                next={`Project ${renderedNextString || ''}`} 
-                project={id} 
+            <ProjectsNavbar
+                previous={`Project ${renderedPreviousString || ''}`}
+                next={`Project ${renderedNextString || ''}`}
+                project={id}
             />
         </div>
     );
