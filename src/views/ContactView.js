@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/ContactView.css';
 
-
 export default function ContactView() {
     return (
         <div className='contact'>
@@ -15,9 +14,8 @@ export default function ContactView() {
                         conversation on from there.
                     </p>
                     <div className='hr-container'>
-                        <hr></hr>
+                        <hr />
                     </div>
-                  
                     <address>
                         <p>1050 Chase Street, San Diego, CA</p>
                         <p>(619) 709-5555</p>
@@ -28,23 +26,30 @@ export default function ContactView() {
                     <form className='contact-form'>
                         <h5>Name (required)</h5>
                         <div className='full-name-container'>
-                            <label>First Name (required)
+                            <label>
+                                First Name (required)
                                 <input type='text' required />
                             </label>
-                            <label>Last Name (required)
+                            <label>
+                                Last Name (required)
                                 <input type='text' required />
                             </label>
                         </div>
-                        <label>Email (required)
+                        <label>
+                            Email (required)
+                            <input type='email' required />
+                        </label>
+                        <label>
+                            Subject (required)
                             <input type='text' required />
                         </label>
-                        <label>Subject (required)
-                            <input type='text' required />
-                        </label>
-                        <label>Message (required)
+                        <label>
+                            Message (required)
                             <textarea required />
                         </label>
-                        <button className='contact-button' type='submit'>Submit</button>
+                        <button className='contact-button' type='submit'>
+                            Submit
+                        </button>
                     </form>
                 </div>
             </div>

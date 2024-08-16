@@ -7,9 +7,9 @@ export default function Button({ children, variant = 'light', backgroundImage, .
 
     return (
         <Link to ='/contact'>
-            <button className={`${buttonClass} ${imageClass}`} style={{ backgroundImage: `url(${backgroundImage})` }} {...rest}>
+            <button className={`${buttonClass} ${imageClass}`} style={{ backgroundImage: `url(${backgroundImage})` }} aria-label='Contact Us' {...rest}>
                 {children}
             </button>
-        </Link> //Has an a tag in it.
+        </Link>
     );
 }

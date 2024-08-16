@@ -6,7 +6,8 @@ import '../styles/AboutView.css';
 export default function AboutView() {
     return (
         <div className='about'>
-            <div className='dual-container-1400'>
+            <section aria-label='About Us Section'>
+                <div className='dual-container-1400'>
                     <div className='box-1'>
                         <h1>About</h1>
                     </div>
@@ -42,13 +43,12 @@ export default function AboutView() {
                             first and foremost be suited to local needs.
                         </p>
                     </div>
-              
-            </div>
-                <ContactSection background="three">
-                    <h2>Let's Work Together</h2>
-                    <Button variant='light'>Contact Us</Button>
-                </ContactSection>
-           
+                </div>
+            </section>
+            <ContactSection background="three">
+                <h2>Let's Work Together</h2>
+                <Button variant='light'>Contact Us</Button>
+            </ContactSection>
         </div>
     );
 }

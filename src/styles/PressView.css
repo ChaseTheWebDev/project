@@ -6,8 +6,12 @@
 }
 
 .press-box-1 {
-    padding: 3rem;
+    padding-block: 3rem;
     width: 40%;
+}
+
+.press-box-1 h1 {
+    font-size: 2.5rem;
 }
 
 .press-box-2 {
@@ -15,10 +19,8 @@
     width: 60%;
 }
 
-.press-box-1 h1 {
-    font-size: 2.5rem;
-}
-
-blockquote {
+.press-box-2 blockquote {
+    display: flex;
+    flex-flow: column nowrap;
     padding: 2.5rem;
 }

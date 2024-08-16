@@ -1,33 +1,35 @@
 import React from 'react';
 import '../styles/OurTeamView.css';
+import MemberCard from '../components/MemberCard';
 
 export default function OurTeamView() {
+    const team = [
+        {
+            name: "Happy Gilmore",
+            info: "Happy Gilmore is a long-time hockey enthusiast who fell in love with golf.",
+            image: "Happy-Gilmore"
+        },
+        {
+            name: "Billy-Jean Madison",
+            info: "Billy-Jean Madison enjoys learning from her colleagues.",
+            image: "Billy-Jean-Madison"
+        }
+    ];
+
     return (
-        <div className='our-team-container'>
-            <div className='card-container'>
-                <div className='member-card'>
-                    <div className='member-image-1'></div>
-                    <h3 className='member-name'>First Name Last Name</h3>
-                    <p className='member-info'>
-                        It all begins with an idea. Maybe you want to launch a
-                        business. Maybe you want to turn a hobby into something
-                        more. Or maybe you have a creative project to share with
-                        the world. Whatever it is, the way you tell your story
-                        online can make all the difference.
-                    </p>
+        <div className='our-team'>
+            <section aria-label='Our Team Section'>
+                <div className='container-1400'>
+                    <div className='card-container'>
+                        {team.map(member => (
+                            <MemberCard
+                                key={member.name}
+                                member={member}
+                            />
+                        ))}
+                    </div>
                 </div>
-                <div className='member-card'>
-                    <div className='member-image-2'></div>
-                    <h3 className='member-name'>First Name Last Name</h3>
-                    <p className='member-info'>
-                        It all begins with an idea. Maybe you want to launch a
-                        business. Maybe you want to turn a hobby into something
-                        more. Or maybe you have a creative project to share with
-                        the world. Whatever it is, the way you tell your story
-                        online can make all the difference.
-                    </p>
-                </div>
-            </div>
+            </section>
         </div>
     );
 }

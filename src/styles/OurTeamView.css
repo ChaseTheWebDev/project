@@ -1,11 +1,11 @@
-.our-team-container {
+.our-team {
     width: 100vw;
     display: flex;
     justify-content: center;
 }
 
 .card-container {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -13,29 +13,3 @@
     gap: calc(2rem + 2vw);
 }
 
-.member-card {
-    width: calc(50% - calc(2rem + 2vw) / 2); /* Adjust width to account for gap */
-    display: flex;
-    flex-flow: column nowrap;
-    box-sizing: border-box;
-}
-
-.member-image-1 {
-    background-image: url('../assets/member-1.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 750px; /* Adjust height as needed */
-    width: 100%; /* Full width of the container */
-}
-
-.member-image-2 {
-    background-image: url('../assets/member-2.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 750px; /* Adjust height as needed */
-    width: 100%; /* Full width of the container */
-}
-
-.member-name {
-    font-size: 2rem;
-}

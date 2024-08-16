@@ -1,0 +1,25 @@
+.member-card {
+    width: calc(50% - calc(2rem + 2vw) / 2); /* Adjust width to account for gap */
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+}
+
+.member-image {
+    background-size: cover;
+    background-position: center;
+    height: 750px; 
+    width: 100%;
+}
+
+.member-image.Happy-Gilmore {
+    background-image: url('../assets/member-HG.jpeg');
+}
+
+.member-image.Billy-Jean-Madison {
+    background-image: url('../assets/member-BM.jpg');
+}
+
+.member-name {
+    font-size: 2rem;
+}
