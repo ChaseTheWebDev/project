@@ -1,15 +1,31 @@
 .project-navbar {
     width: 100vw;
-    width: 100dvw;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     padding-block: 3rem;
     font-size: 2rem;
+    overflow: hidden;
 }
 
 .spreader {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
     justify-content: space-between;
+    width: 100%; 
 }
 
+@media (max-width: 600px) {
+    .project-navbar {
+        font-size: 1.5rem; 
+        padding-block: 2rem; 
+    }
+
+    .spreader {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
