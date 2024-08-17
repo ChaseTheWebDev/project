@@ -1,7 +1,7 @@
 .member-card {
-    width: calc(50% - calc(2rem + 2vw) / 2); /* Adjust width to account for gap */
+    width: calc(50% - calc(2rem + 2vw) / 2);
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
@@ -22,4 +22,15 @@
 
 .member-name {
     font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    .member-card {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    .member-image {
+        height: 400px; 
+    }
 }

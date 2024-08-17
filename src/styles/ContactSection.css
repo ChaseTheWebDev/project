@@ -40,6 +40,7 @@
 .contact-section-with-background h2 {
     font-size: 2.6rem;
     width: 50%;
+    padding-bottom: 1rem;
 }
 
 .contact-section-container p,
@@ -47,6 +48,8 @@
 .contact-section-with-background p {
     font-size: 1.1rem;
     width: 50%;
+    padding-bottom: 1rem;
+
 }
 
 @media (max-width: 768px) {
@@ -67,6 +70,8 @@
     .contact-section-with-background p {
         font-size: 1rem;
         width: 100%;
+        padding-bottom: 1rem;
+
     }
 }
 

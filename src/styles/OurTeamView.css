@@ -13,3 +13,10 @@
     gap: calc(2rem + 2vw);
 }
 
+@media (max-width: 600px) {
+    .card-container {
+        flex-flow: column nowrap;
+        padding-block: 0rem;
+        padding-bottom: 1rem;
+    }
+}

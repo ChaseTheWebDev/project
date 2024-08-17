@@ -18,3 +18,12 @@
   flex-flow: row nowrap;
   padding-block: 5rem;
 }
+
+@media (max-width: 600px) {
+  .dual-container-1400 {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-block: 0rem;
+    padding-inline: 2rem;
+  }
+}
