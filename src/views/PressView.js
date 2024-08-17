@@ -29,7 +29,7 @@ export default function PressView() {
                             came from the same small studio: Utica. With a combination of
                             deep research and spontaneous wit, their practice has injected
                             new ideas into an architectural landscape that desperately needs them.”
-                            <small>– Press Source</small>
+                            <cite>– Press Source</cite>
                         </blockquote>
                     </div>
                 </div>
