@@ -24,7 +24,6 @@ export default function ContactView() {
                 </div>
                 <div className='contact-box-2'>
                     <form className='contact-form'>
-                        <h5>Name (required)</h5>
                         <div className='full-name-container'>
                             <label>
                                 First Name (required)

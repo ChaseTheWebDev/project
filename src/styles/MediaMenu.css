@@ -1,10 +1,13 @@
 .media-menu {
+    position: fixed;
+    top: 0;
+    left: 0; 
     width: 100vw;
-    width: 100dvw;
     height: 100vh;
-    height: 100dvh;
     overflow: hidden;
     padding: 2rem;
+    background: white;
+    z-index: 10;
 }
 
 .menu-nav-container {
@@ -13,12 +16,23 @@
     justify-content: space-between;
 }
 
+.close-button {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
 .menu-list {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
+    padding-block: 2rem;
+    list-style-type: none;
+    margin: 0;
 }
